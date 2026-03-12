@@ -51,6 +51,10 @@ path = ~/mainsail-config
 origin = https://github.com/mainsail-crew/mainsail-config.git
 managed_services = klipper
 
+[update_manager klipper]
+channel = dev
+pinned_commit = v0.13.0-562-g7a447264
+
 [wled Lights]
 type = http
 address = vlights.local
