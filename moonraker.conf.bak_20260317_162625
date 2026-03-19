@@ -172,10 +172,3 @@ install_script: scripts/install.sh
 # is_system_service: False
 # info_tags:
 #     desc=AFC Klipper Add On
-
-[update_manager goose_purge]
-type: git_repo
-primary_branch: main
-path: ~/goose_purge_macro
-origin: https://github.com/Graylag-PD/Goose-Purge-Macro.git
-managed_services: klipper
