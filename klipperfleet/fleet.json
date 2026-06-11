@@ -82,9 +82,9 @@
         "flashed_commit": "7a44726492fd"
     },
     {
-        "name": "Mellow-Fly-SB2040 (2c9e17cc108c)",
-        "id": "2c9e17cc108c",
-        "profile": "Mellow Fly SB2040v3",
+        "name": "Mellow Fly-SB2040v2 (3a18ab7be185)",
+        "id": "3a18ab7be185",
+        "profile": "Mellow Fly-SB2040v2",
         "method": "can",
         "interface": "can0",
         "baudrate": 250000,
