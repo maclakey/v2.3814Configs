@@ -73,7 +73,7 @@
             "map": "T6",
             "load": true,
             "prep": true,
-            "selector": true,
+            "selector": false,
             "tool_loaded": false,
             "loaded_to_hub": true,
             "material": "ABS",
@@ -104,8 +104,8 @@
             "map": "T7",
             "load": true,
             "prep": true,
-            "selector": false,
-            "tool_loaded": false,
+            "selector": true,
+            "tool_loaded": true,
             "loaded_to_hub": true,
             "material": "PLA",
             "density": 1.24,
@@ -114,13 +114,13 @@
             "remember_spool": false,
             "spool_id": null,
             "color": "",
-            "weight": 528.2996811213048,
+            "weight": 518.8931280828521,
             "extruder_temp": 0,
             "bed_temp": 0,
             "runout_lane": "lane7",
-            "filament_status": "Ready",
-            "filament_status_led": "#003f00",
-            "status": "Tool Loading",
+            "filament_status": "In Tool",
+            "filament_status_led": "#0000ff",
+            "status": "Tooled",
             "dist_hub": 140.51,
             "td1_data": {}
         }
@@ -252,13 +252,13 @@
         }
     },
     "system": {
-        "current_load": null,
+        "current_load": "lane8",
         "num_units": 2,
         "num_lanes": 8,
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": null
+                "lane_loaded": "lane8"
             }
         },
         "bypass": {
